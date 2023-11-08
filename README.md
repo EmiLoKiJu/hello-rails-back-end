@@ -33,8 +33,6 @@ hello--rails-react, is a way to greet someone in a very difficult way
   <ul>
     <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
     <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
-    <li><a href="https://redux.js.org/introduction/installation">React-redux</a></li>
-    <li><a href="https://axios-http.com/docs/intro">axios</a></li>
   </ul>
 </details>
 
@@ -42,13 +40,6 @@ hello--rails-react, is a way to greet someone in a very difficult way
   <summary>Ruby on Rails</summary>
   <ul>
     <li><a href="https://guides.rubyonrails.org/getting_started.html#what-is-rails-questionmark">Ruby on Rails introduction</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="">N/A</a></li>
   </ul>
 </details>
 
@@ -64,12 +55,6 @@ hello--rails-react, is a way to greet someone in a very difficult way
 ### Key Features <a name="key-features"></a>
 
 - **ROR**
-- **Devise**
-- **cancancan**
-- **Rspec**
-- **Capybara**
-- **React-redux**
-- **axios**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,8 +68,6 @@ To get a local copy of this project and run it in your computer, follow these st
 In order to run this project you need:
 - Ruby 3.0.1 or above
 - Ruby on rails 7.0.8 or above
-- node and yarn installed on your system.
-- npx version 7.1.0 or later.
 
 ### Tutorial <a name="tutorial"></a>
 
@@ -326,14 +309,14 @@ To get a local copy up and running follow these simple example steps.
 Clone this repository in the desired folder:
 ```
 cd my-folder
-git clone https://github.com/EmiLoKiJu/hello--rails-react.git
+git clone https://github.com/EmiLoKiJu/hello-rails-react.git
 ```
 
 ### Install
 
 To install this project:
 ```
-cd hello--rails-react
+cd hello-rails-react
 code .
 bundle install
 ```
@@ -348,20 +331,10 @@ To run the project, make sure you configured your database correctly, then execu
 
 After the database is set up, run the following command:
 ```
-foreman start -f Procfile.dev
+rails server
 ```
 
-Go to http://localhost:5000/ and see it working.
-
-You can also run this using 2 terminals:
-
-In one, run:
-rails server
-
-In the other, run:
-yarn build --watch
-
-Then check the link of the rails server (it should have changed to http://localhost:3000/)
+Then check the link of the rails server (it should be http://localhost:3000/)
 
 ### Run tests
 
